@@ -1,8 +1,8 @@
 from django.contrib import admin
 
-# from .models import Product, Promotion, Collection, Customer, Order, OrderItem, Address, Cart, CartItem
+from .models import *
 
-# admin.site.register(Product)
+admin.site.register(Product)
 # admin.site.register(Promotion)
 # admin.site.register(Collection)
 # admin.site.register(Customer)
