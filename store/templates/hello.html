@@ -9,6 +9,16 @@
 <body>
     <h3> Welcome to my first served page</h3>
      
+<h5> My products </h5>
+
+<table border="1">
+    <strong><tr><td> Title </td><td> Description </td></tr></strong>
+    {% for product in products %}
+
+<tr><td>{{ product.title }}</td> <td> {{ product.description }}</td> </tr>
+
+    {% endfor %}
+</table>
 
 </body>
 </html>
